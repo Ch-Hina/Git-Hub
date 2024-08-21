@@ -10,9 +10,12 @@ var arr = [
 
 
 
+
+console.log(arr.length)
+
 //var h1 =document.getElementsByTagName("h1")
 //for(var i=0; i<= h1.length; i++){
-  //  console.log(h1[i].innerHTML);
+  //console.log(h1[i].innerHTML);
 //}
 
 

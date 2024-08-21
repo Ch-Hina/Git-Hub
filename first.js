@@ -10,6 +10,8 @@ var arr = [
 
 
 
-for( var index =0; index <=3; index++){
+
+
+for( var index =0; index < arr.lenght; index++){
     console.log(arr[index])
 }
