@@ -5,7 +5,7 @@ var arr = [
     {name: "Hina",     age: 19 , color:"pink" },
     {name: "Amna" ,    age: 21 , color:"Blue" },
     {name: "Ch Amna" , age: 19 , color:"pink" },
-    {name: "Aima " , age: 19 , color:"Black" }
+    {name: "Aima " ,   age: 19 , color:"Black" }
 ]
 
 
@@ -17,9 +17,6 @@ for(var i=0; i<= h1.length; i++){
 
 
 
-
-var tbody = document.getElementsByTagName("tbody")
-console.log(tbody)
 
 
 
