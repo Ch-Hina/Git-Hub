@@ -13,17 +13,22 @@ var arr = [
 
 
 
-//var h1 =document.getElementsByTagName("h1")
-//for(var i=0; i<= h1.length; i++){
-  //console.log(h1[i].innerHTML);
-//}
+var tbody =document.getElementById("tbody");
 
 
 
 
+for( var index= 0; index <= arr.length; index++){
+    var row = `<tr>
+    <td> ${arr[index].name} </td>
+    <td> ${arr[index] .age} </td>
+    <td> ${arr[index].color} </td>
+
+   </tr> `;
 
 
-for( var index= 0; index <= 3; index++){
-    console.log("arr[index]")
-} 
+   console.log(row)
+
+        tbody.innerHTML += row;
+}
     
