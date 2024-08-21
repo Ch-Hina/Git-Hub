@@ -10,10 +10,10 @@ var arr = [
 
 
 
-var h1 =document.getElementsByTagName("h1")
-for(var i=0; i<= h1.length; i++){
-    console.log(h1[i].innerHTML);
-}
+//var h1 =document.getElementsByTagName("h1")
+//for(var i=0; i<= h1.length; i++){
+  //  console.log(h1[i].innerHTML);
+//}
 
 
 
@@ -21,11 +21,6 @@ for(var i=0; i<= h1.length; i++){
 
 
 for( var index= 0; index <= 3; index++){
-    var row = <tr>
-        <td> ${arr[index]} </td>
-        <td> ${arr[index]} </td>
-        <td> ${arr[index]} </td>
-
-    </tr>;
+    console.log("arr[index]")
 } 
     
