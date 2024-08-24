@@ -29,6 +29,10 @@ for( var index= 0; index <= arr.length; index++){
 
    console.log(row)
 
-        tbody.innerHTML += row;
-}
+        tbody.innerHTML += row
+
+
+
+
+
     
