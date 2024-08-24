@@ -32,7 +32,7 @@ for( var index= 0; index <= arr.length; index++){
         tbody.innerHTML += row
 
 
-
+}
 
 
     
